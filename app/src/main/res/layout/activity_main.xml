@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" tools:context="com.example.lenovo.bai2_vongdoi.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Lê Văn Hà"
+        android:textColor="#C52D22"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/btncall"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Trang khác"
+        android:textSize="24sp" />
+</LinearLayout>
